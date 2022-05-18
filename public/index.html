@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+
+    <title>Social Media Dashboard (with Dark Mode)</title>
+
+    <link rel="stylesheet" href="src/fonts/fonts.css" />
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <script type="text/javascript" src="./dist/js/scripts.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="upperheader">
+        <h1 class="header">Social Media Dashboard</h1>
+        <span class="total" id="totalfollowers"></span>
+    </div>
+
+    <!-- TOGGLE -->
+    <label class="switch">
+    <input type="checkbox">
+    <span class="slider round"></span>
+    </label>
+    <p class="buttonname">Dark Mode</p>
+
+    <div class="boxtop" id="upperlayer"></div>
+
+    <!-- OVERVIEW - Today -->
+    <div class="boxbottomheader">
+        <h1 class="header">Overview - Today</h1>
+    </div> 
+    <div class="boxbottom" id="lowerlayer"></div>
+  </body>
+</html>
